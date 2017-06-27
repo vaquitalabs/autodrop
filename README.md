@@ -9,9 +9,7 @@ Do a global install to be able to use it in any directory
 ```
 npm i -g autodrop
 ```
-
 or 
-
 ```
 yarn global add autodrop
 ```
@@ -26,9 +24,15 @@ autodrop -r [component name]
 
 E.g: `autodrop -r MyHappyComponent`
 
-The above command will create the following tree on the current directory
-- MyHappyComponent
+The above command will create the following tree on the current directory:
+
+```
+- MyHappyComponent (directory)
 -- index.js (exports the component)
 -- MyHappyComponent.js (component functionality)
+```
 
-Work in progress
+Work in progress...
+
+TODO: 
+- Add option to choose between state or stateless components
