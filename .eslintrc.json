@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "no-mixed-spaces-and-tabs":"error",
+    "comma-dangle": ["error", "always-multiline"],
+    "arrow-body-style": 0,
+    "linebreak-style": 0,
+    "func-names": 0,
+    "camelcase": 0
+  }
+}

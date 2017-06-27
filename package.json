@@ -1,0 +1,25 @@
+{
+  "name": "autodrop",
+  "version": "0.0.4",
+  "description": "Tool to create ready to use skeleton directories",
+  "main": "./lib/autodrop.js",
+  "bin": "./bin/autodrop.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React",
+    "Component",
+    "Quick",
+    "Directory"
+  ],
+  "author": "marcosn <marcos@aftertype.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.0"
+  }
+}

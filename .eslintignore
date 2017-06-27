@@ -1,0 +1,7 @@
+test
+node_modules
+flow-typed
+coverage
+dist
+tmp
+**/*.spec.js
